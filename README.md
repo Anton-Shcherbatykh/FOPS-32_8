@@ -35,4 +35,5 @@ Cron-файл [cron](files/shcherbatykh)
 
 Проверка работы cron-файла (запись в системном логе)
 
+![alt text](screenshots/picture_2_5.jpg)
  ![alt text](screenshots/picture_2_4.jpg)
