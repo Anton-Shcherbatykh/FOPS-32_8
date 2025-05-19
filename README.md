@@ -26,9 +26,13 @@ Cron-файл [cron](files/shcherbatykh)
 2. Резервная копия зеркальна по отношению к оригиналу
 
    ![alt text](screenshots/picture_2_2.jpg)
-4. Запись в логе
+3. Запись в логе
 
     ![alt text](screenshots/picture_2_1.jpg)
-6. Резервная копия размещается в директории `/tmp/backup`
+4. Резервная копия размещается в директории `/tmp/backup`
 
     ![alt text](screenshots/picture_2_3.jpg)
+
+Проверка работы cron-файла (запись в системном логе)
+
+ ![alt text](screenshots/picture_2_4.jpg)
