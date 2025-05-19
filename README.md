@@ -24,8 +24,11 @@
 1. Скрипт [backup.sh](files/backup.sh)
 Cron-файл [cron](files/shcherbatykh)
 2. Резервная копия зеркальна по отношению к оригиналу
+
    ![alt text](screenshots/picture_2_2.jpg)
-3. Запись в логе
-   ![alt text](screenshots/picture_2_1.jpg)
-4. Резервная копия размещается в директории `/tmp/backup`
+4. Запись в логе
+
+    ![alt text](screenshots/picture_2_1.jpg)
+6. Резервная копия размещается в директории `/tmp/backup`
+
     ![alt text](screenshots/picture_2_3.jpg)
