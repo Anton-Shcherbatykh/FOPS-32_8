@@ -9,9 +9,9 @@
 ## Выполнение
 команда `rsync -a --checksum --verbose --delete --progress --exclude '.*' /home/shcherbatykh/ /tmp/backup`
 
- ![alt text](https://github.com/Anton-Shcherbatykh/FOPS-32_8/blob/main/screenshots%20%26%20files/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201_1.jpg)
- ![alt text](https://github.com/Anton-Shcherbatykh/FOPS-32_8/blob/main/screenshots%20%26%20files/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201_2.jpg)
- ![alt text](https://github.com/Anton-Shcherbatykh/FOPS-32_8/blob/main/screenshots%20%26%20files/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%201_3.jpg)
+ ![alt text](screenshots & files/picture_1_1.jpg)
+ ![alt text](screenshots & files/picture_1_2.jpg)
+ ![alt text](screenshots & files/picture_1_3.jpg)
 
 ## Задание 2
 1. Написать скрипт и настроить задачу на регулярное резервное копирование домашней директории пользователя с помощью rsync и cron.
@@ -23,3 +23,9 @@
 ## Выполнение
 1. Скрипт [backup.sh](files/backup.sh)
 Cron-файл [cron](files/shcherbatykh)
+2. Резервная копия зеркальна по отношению к оригиналу
+   ![alt text](screenshots & files/picture_2_2.jpg)
+3. Запись в логе
+   ![alt text](screenshots & files/picture_2_1.jpg)
+4. Резервная копия размещается в директории `/tmp/backup`
+    ![alt text](screenshots & files/picture_2_3.jpg)
